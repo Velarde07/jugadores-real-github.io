@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hala Madrid</title>
+  <link href='/style.css' rel='stylesheet'>
+</head>
+<body>
+  <h1>La grandeza del Madrid, personificada en cada uno de sus jugadores</h1>
+  <div class="container-card">
+    <div class="card">
+      <img id="fotoJugador" class = "jugador" src="assets/VINI.webp" alt="jugador del madrid">
+      <p class = "fuego">🔥</p>
+      <div class = "info">
+        <h2 id="dorsal" class = "dorsal">7</h2>
+        <div class="info-jugador">
+          <p id="nombre" class = "nombre">Vini Jr</p>
+          <p id="posicion" class = "posicion">Delantero</p>
+        </div>
+      </div>
+    </div>
+    <div class="botoncitos">
+      <button onclick="retroceder()"  class="cliclar"><img class="avanzar" src="assets/angulo-izquierdo.svg"></button>
+      <button onclick="avanzar()" class="cliclar"><img class="avanzar" src="assets/angulo-derecho.svg"></button>
+    </div>
+  </div>
+  <script defer type="module" src="/main.js"></script>
+</body>
+</html>

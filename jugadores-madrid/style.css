@@ -1,0 +1,103 @@
+/* Add styles here */
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Dancing+Script:wght@400..700&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Ga+Maamli&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Dancing+Script:wght@400..700&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Ga+Maamli&family=Playwrite+CL:wght@100..400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: "Ga Maamli", sans-serif;
+    color: rgb(255, 255, 255);
+    background-image: url(assets/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 50px;
+}
+
+h1{
+    font-size: 60px;
+    margin: 0 auto 50px auto;
+    text-align: center;
+}
+
+.container-card{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card{
+    width: 250px;
+    height: 350px;
+    border: 1px rgb(0, 0, 0) solid;
+    background-color: rgb(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.jugador{
+    position: absolute;
+    top: 10px;
+    width: 75%;
+    height: 75%;
+    right: 10px;
+    filter: drop-shadow(8px 12px 14px rgb(255, 255, 255));
+}
+img{
+    mask-image: linear-gradient(
+        black 80%,
+        transparent
+    );
+}
+
+
+.fuego{
+    font-size: 54px;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+}
+.info{
+    position: absolute;
+    width: 80%;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+}
+.dorsal{
+    font-size: 60px;
+}
+.info-jugador{
+    margin-left: 20px;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    font-family: "Playwrite CL", cursive;
+}
+
+.botoncitos{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+.cliclar{
+    margin-top: 10px;
+}
+
+.avanzar{
+    width: 30px;
+    height: 30px;
+}
